@@ -1,7 +1,7 @@
 {
   "name": "language-mdbp",
   "version": "0.0.0",
-  "description": "A short description of your language package",
+  "description": "MarkdownのSyntaxを日本語対応するようにカスタマイズ（GFMベース）",
   "keywords": [
     "Markdown",
     "MDBP",
