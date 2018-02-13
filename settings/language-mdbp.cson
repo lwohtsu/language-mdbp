@@ -3,4 +3,6 @@
 
 '.source.mdbp':
   'editor':
-    'commentStart': '@@ '
+    'softWrap': true
+    'commentStart': '<!-- '
+    'commentEnd': ' -->'
