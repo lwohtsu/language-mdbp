@@ -7,7 +7,7 @@
     "MDBP",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-mdbp",
+  "repository": "https://github.com/lwohtsu/language-mdbp",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
