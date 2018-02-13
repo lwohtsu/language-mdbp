@@ -2,6 +2,21 @@
 # https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
 
 '.source.mdbp':
+  'cover page（章扉）':
+    'prefix': 'cov'
+    'body': '@div:coverpage'
+  'section header（節見出し）':
+    'prefix': 'sec'
+    'body': '@div:secheader'
+  'figure（図版）':
+    'prefix': 'fig'
+    'body': '@div:figure'
+  'column（コラム）':
+    'prefix': 'col'
+    'body': '@div:column'
+  '@divend':
+    'prefix': 'de'
+    'body': '@divend'
   'bold text':
     'prefix': 'b'
     'body': '**$1**$0'
@@ -39,7 +54,7 @@
   'table':
     'prefix': 'table'
     'body': """
-      | ${1:Header One    } | ${2:Header Two    } |
-      | :------------- | :------------- |
-      | ${3:Item One      } | ${4:Item Two      } |$0
+      | ${1:Header One    } | ${2:Header Two    }
+      |-- |--
+      | ${3:Item One      } | ${4:Item Two      } $0
     """
