@@ -14,6 +14,9 @@
   'column（コラム）':
     'prefix': 'col'
     'body': '@div:column'
+  'comment（コメント）':
+    'prefix': 'com'
+    'body': '@comment:$1@commend'
   '@divend':
     'prefix': 'de'
     'body': '@divend'
