@@ -17,6 +17,9 @@
   'comment（コメント）':
     'prefix': 'com'
     'body': '@comment:$1@commend'
+  'hen（編集コメント）':
+    'prefix': 'hen'
+    'body': '@div:hen'
   '@divend':
     'prefix': 'de'
     'body': '@divend'
