@@ -38,5 +38,8 @@ atom-text-editor {
   .syntax--heading-3{
     background-color: #e9fadd;
   }
+  .syntax--hr{
+    background-color: #0f0;
+  }  
 }
 ```
