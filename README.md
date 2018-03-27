@@ -18,3 +18,25 @@ GiHub Markdownのスニペットの他に以下を追加しました。
 | fig | 図版領域 |@div:figure|
 | col | コラム |@div:column|
 | de  | @divの閉じタグ |@divend|
+
+## Markdownの見出しをもう少し見やすくする
+テーマを作るほどもないのですが、文書が長くなってくると見出しが目立たないと構造を把握しにくので、h2とh3用のスタイルを目立つようにして使っています。
+
+環境設定画面の［テーマ］からスタイルシート（style.css）を開きます。
+![](docimg-6.png)
+
+atom-text-editorの中に、h2とh3用のスタイルを追加します。
+![](docimg-7.png)
+
+```css
+atom-text-editor {
+  .syntax--heading-2{
+    display: inline-block;
+    width: 100%;
+    background-color: #d0f98b;
+  }
+  .syntax--heading-3{
+    background-color: #e9fadd;
+  }
+}
+```
